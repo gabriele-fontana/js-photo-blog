@@ -13,6 +13,8 @@ header{
     font-size: 40px;
     text-align: center;
     padding: 1rem;
+    font-family: "DM Sans", sans-serif;
+    font-style: oblique;
 }
 .row{
     display: flex;
@@ -44,4 +46,5 @@ header{
 .card-title{
     font-size: 16px;
     padding-top: 1rem;
+    font-family: "Bad Script", cursive;
 }
