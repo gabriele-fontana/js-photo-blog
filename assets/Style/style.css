@@ -8,3 +8,40 @@ main{
     min-height: 100vh;
 
 }
+header{
+    background-color: lightgrey;
+    font-size: 40px;
+    text-align: center;
+    padding: 1rem;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 420px;
+    min-height: 400px;
+    background-color: white;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.card-img{
+    background-color: rgb(68, 233, 68);
+
+}
+.pin{
+    height: 30px;
+    top: 4px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%)
+}
+.card-title{
+    font-size: 16px;
+    padding-top: 1rem;
+}
