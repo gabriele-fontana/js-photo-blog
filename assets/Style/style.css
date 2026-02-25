@@ -81,7 +81,7 @@ header{
     }
 }
 
-@media (min-width:  992px) {/* add tablet breakpoint */
+@media (min-width:  992px) {/* add laptop breakpoint */
     .card{
         width: calc(33.33% - 2rem);    
     }
