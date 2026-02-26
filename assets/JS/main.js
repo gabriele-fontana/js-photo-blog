@@ -18,14 +18,21 @@ data.forEach(card => {
     </div>`;
 });
 column.innerHTML = cardsHTML;
+
+const allCards = document.querySelectorAll('.card')
+
+
+allCards.forEach((card) =>{
+    card.addEventListener('click', on)
+})
+closeBtn.addEventListener('click', off)
 })
     
 off()
 function on() {
-  document.getElementById("overlay").style.display = "block";
-}
+  document.getElementById("overlay").style.display = "flex";
+}block
 function off() {
   document.getElementById("overlay").style.display = "none";
 }
-closeBtn.addEventListener('click', off)
 
