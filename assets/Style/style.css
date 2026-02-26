@@ -48,6 +48,16 @@ header{
     width: calc(100% - 2rem);
     cursor: pointer;
     pointer-events: auto;
+    
+    
+}
+ 
+.card-img:hover {
+  transform: scale(1.1) rotate(10deg);
+  box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.808);
+}
+.card-img {
+    transition: transform 0.7s ease, box-shadow 1s ease;
 }
 .row {
     display: flex;
