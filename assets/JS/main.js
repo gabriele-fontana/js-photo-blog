@@ -1,6 +1,7 @@
 //link api 
 const endpoint = 'https://lanciweb.github.io/demo/api/pictures/'
 const column = document.getElementsByClassName('row')[0] 
+const closeBtn = document.getElementById('close-btn')
 fetch(endpoint)
 .then(res => res.json())
 .then (data =>{
@@ -19,8 +20,17 @@ fetch(endpoint)
         </div> 
         `
         column.innerHTML += markup
+
     });
     
 
 
 })
+off()
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}
+closeBtn.addEventListener('click', off)
